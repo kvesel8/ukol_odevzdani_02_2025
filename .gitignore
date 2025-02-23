@@ -1,0 +1,12 @@
+# Local storage
+node_modules/
+.vscode
+dist/
+
+# Test results
+playwright-report/
+test-results/
+
+# Security
+.env*
+!.env_example

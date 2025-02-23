@@ -1,0 +1,90 @@
+{
+    "validPassword": [
+        {
+            "username": "standard_user",
+            "password": "secret_sauce"
+        },
+        {
+            "username": "locker_out_user",
+            "password": "secret_sauce"
+        },
+        {
+            "username": "problem_user",
+            "password": "secret_sauce"
+        },
+        {
+            "username": "performance_glitch_user",
+            "password": "secret_sauce"
+        },
+        {
+            "username": "error_user",
+            "password": "secret_sauce"
+        },
+        {
+            "username": "visual_user",
+            "password": "secret_sauce"
+        }
+    ],
+    "invalidPassword": [
+        {
+            "username": "standard_user",
+            "password": "secret_parek"
+        },
+        {
+            "username": "locker_out_user",
+            "password": "secret_parek"
+        },
+        {
+            "username": "problem_user",
+            "password": "secret_parek"
+        },
+        {
+            "username": "performance_glitch_user",
+            "password": "secret_parek"
+        },
+        {
+            "username": "error_user",
+            "password": "secret_parek"
+        },
+        {
+            "username": "visual_user",
+            "password": "secret_parek"
+        }
+    ],
+    "invalidUserName": [
+        {
+            "username": "elefant_user",
+            "password": "secret_sauce"
+        },
+        {
+            "username": "raspberry_user",
+            "password": "secret_sauce"
+        },
+        {
+            "username": "banana_user",
+            "password": "secret_sauce"
+        },
+        {
+            "username": "brocoli_user",
+            "password": "secret_sauce"
+        }
+    ],
+    "invalidUserNameAndPassword": [
+        {
+            "username": "elefant_user",
+            "password": "africa_sauce"
+        },
+        {
+            "username": "raspberry_user",
+            "password": "garden_sauce"
+        },
+        {
+            "username": "banana_user",
+            "password": "palm_sauce"
+        },
+        {
+            "username": "brocoli_user",
+            "password": "dip_sauce"
+        }
+    ]
+}
