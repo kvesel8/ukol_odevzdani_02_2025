@@ -26,10 +26,10 @@ Selectors for pages are stored in external files and every page has its own file
 
 BUILD WITH
 ----------
-Node.js
-Javascript
-Typescript
-Playwright framework
+- Node.js
+- Javascript
+- Typescript
+- Playwright framework
 
 
 PREREQUISITES 
