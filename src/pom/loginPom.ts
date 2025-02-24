@@ -62,7 +62,6 @@ export class LoginPom {
                 await this._page.getByPlaceholder(sel.USERNAME_FIELD).first().fill(user.username,{timeout:this._defaultTimeout})
                 await this._page.locator(sel.PASSWORD_FIELD).first().fill(user.password,{timeout:this._defaultTimeout})
                 await this.clickLoginButton()
-                await this._page.pause()
                 await this.reloadPage()
             }
         })

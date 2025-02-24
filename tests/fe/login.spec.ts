@@ -11,7 +11,6 @@ test.describe("Login tests", () => {
     await login.navigateToLoginPage();
     await login.fillStandardUser();
     await login.clickLoginButton();
-    await page.pause();
   });
 
   test('Login with no username and passwoprd', async({page}) => {

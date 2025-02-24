@@ -13,7 +13,6 @@ test.describe('Inventory tests', () => {
         await login.fillStandardUser()
         await login.clickLoginButton()
         await inventory.sortHighToLow()
-        await page.pause()
     })
     
         test('Add the most expensive item to cart', async ({page}) => {
