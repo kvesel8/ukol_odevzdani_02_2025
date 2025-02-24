@@ -30,7 +30,6 @@ export default defineConfig({
         trace: 'retain-on-first-failure',
         screenshot: 'only-on-failure',
 
-        testIdAttribute: 'data-testId',
         viewport: DEFAULT_VIEWPORT,
         actionTimeout: TIMEOUTS.ACTION_TIMEOUT,
         navigationTimeout: TIMEOUTS.ACTION_TIMEOUT,
