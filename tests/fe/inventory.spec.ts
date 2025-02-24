@@ -1,6 +1,6 @@
 import { test } from '@playwright/test'
-import { InventoryPom } from '../pom/inventoryPom'
-import { LoginPom } from '../pom/loginPom'
+import { InventoryPom } from '../../src/pom/inventoryPom'
+import { LoginPom } from '../../src/pom/loginPom'
 
 
 

@@ -28,6 +28,7 @@ export default defineConfig({
     use: {
       
         trace: 'retain-on-first-failure',
+        screenshot: 'only-on-failure',
 
         testIdAttribute: 'data-testId',
         viewport: DEFAULT_VIEWPORT,
