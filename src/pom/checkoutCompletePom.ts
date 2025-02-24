@@ -6,7 +6,6 @@ export class CheckoutCompletePom {
 
     protected _page: Page
     protected _test: TestType <PlaywrightTestArgs & PlaywrightTestOptions, PlaywrightWorkerArgs & PlaywrightWorkerOptions>
-    private _defaultTimeout: number
 
     constructor(
         page: Page,
@@ -14,7 +13,6 @@ export class CheckoutCompletePom {
     ) {
         this._page=page
         this._test=test
-        this._defaultTimeout=10_000
     }
 
     public async checkSuccessfullOrder(){ 

@@ -26,6 +26,6 @@ export class InventoryPom {
     }
 
     public async addItemToCart(){
-        //To be implemented
+    
     }    
 }
