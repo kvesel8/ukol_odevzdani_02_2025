@@ -46,6 +46,13 @@ export default defineConfig({
              
             },      
         },
+        {
+            name: 'edge',
+            use: { 
+                ...devices['Desktop Edge'],
+             
+            },      
+        },
        
     ],
     

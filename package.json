@@ -6,11 +6,9 @@
     },
     "private": true,
     "devDependencies": {
-        "@playwright/test": "^1.49.0",
+        "@playwright/test": "^1.50.1",
         "@types/node": "^22.10.1",
         "typescript": "^5.7.2"
     },
-    "scripts": {
-       
-    }
+    "scripts": {}
 }
