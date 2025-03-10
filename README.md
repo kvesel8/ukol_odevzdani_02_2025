@@ -15,7 +15,9 @@ Table of Contents
 
 ABOUT THE PROJECT
 -----------------
-The goal of this project is to create simple automated tests for eshop https://www.saucedemo.com/ with use of POM concept. Automated tests in this project go through basic flow such as user login, adding products in shopping cart, fill in user information form and finishing the order. Tests are designed to test both front-end and API calls/responses.
+The goal of this project is to create simple automated tests for eshop https://www.saucedemo.com/ with use of POM concept. Automated tests in this project go through basic flow such as user login, adding products in shopping cart, fill in user information form and finishing the order. Tests are designed to test only front-end.
+
+This project also includes basic API tests for https://bankground.apimate.eu/ such as creating a user, login with token, get detail of created user and update data of the user. Tests dont use SOM yet.
 
 In this project POM concept represents each page of saucedemo eshop as a single class(file) with its own properties and methods. Methods of these classes are afterwards used in test files to interact with particular page of saucedemo eshop. Files with classes are stored in "src" - "pom" folder
 

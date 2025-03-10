@@ -2,6 +2,7 @@
 node_modules/
 .vscode
 dist/
+_deffer
 
 # Test results
 playwright-report/

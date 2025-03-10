@@ -45,15 +45,7 @@ export default defineConfig({
                 ...devices['Desktop Chrome'],
              
             },      
-        },
-        {
-            name: 'edge',
-            use: { 
-                ...devices['Desktop Edge'],
-             
-            },      
-        },
-       
+        }       
     ],
     
 });
